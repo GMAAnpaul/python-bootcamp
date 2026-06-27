@@ -1,17 +1,17 @@
-total = 0
+total = 5
 running = True
 while running:
     command = input("Provide command: ")
 
     if command == "add":
-        # TODO: Ask for number
-        # TODO: Add that number to the total
-        # TODO: Print the current total
+        Number1 = int(input("Enter number:"))
+        total = total + Number1
+        print(total)
         pass
     if command == "sub":
-        # TODO: Ask for number
-        # TODO: Add that number to the total
-        # TODO: Print the current total
+        Number2 = int(input("Enter number:"))
+        total = total - Number2
+        print(total)
         pass
     elif command == "exit":
         running = False

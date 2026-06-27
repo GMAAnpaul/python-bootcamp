@@ -1,2 +1,3 @@
-user_input = input()
+
+user_input = input("hello")
 print(user_input)

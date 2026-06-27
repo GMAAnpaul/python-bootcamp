@@ -12,3 +12,13 @@ print("Counter:", counter)
 # TODO: Decrease the score by 4
 # TODO: Change code here
 print("Counter:", counter)
+
+counter = 0
+print("Counter:", counter)
+
+counter += 5
+print(counter)
+
+counter *= 10
+print(counter)
+

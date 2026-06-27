@@ -7,3 +7,10 @@
 """
 
 # TODO: Use the function once
+def lines(number):
+    for item in range (number):
+        print(f"number", item)
+lines(4)
+
+
+

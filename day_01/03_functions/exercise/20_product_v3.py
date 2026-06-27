@@ -1,8 +1,12 @@
-def product():
-    """ TODO: Takes three inputs (or two) and return"""
 
-# TODO: product(1, 1, 1)	# 1
-# TODO: product(1, 2, 3)	# 6
-# TODO: product(2, 5, 10)	# 100
-# TODO: product(3, 3)	    # 9
-# TODO: product(2, 5)	    # 12
+def products( product_1, product_2, product_3=1):
+    return product_1 * product_2 * product_3
+
+input_1= int(input("Enter Product 1:"))
+input_2= int(input("Enter Product 2:"))
+input_3= int(input("Enter Product 3:"))
+result = products(input_1, input_2, input_3)
+print(result)
+
+result = products (input_1, input_2)
+print(result)

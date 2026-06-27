@@ -6,3 +6,8 @@ TODO: Create a function called `line_generator` that prints the following:
 """
 
 # TODO: Use the function once
+def lines():
+    print("Line 1")
+    print("Line 2")
+    print("Line 3")
+lines()

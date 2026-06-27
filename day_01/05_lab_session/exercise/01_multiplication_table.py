@@ -17,3 +17,8 @@ number = 3
 3 x 9 = 27
 3 x 10 = 30
 """
+
+Number = int(input("Pick a number: "))
+
+for i in range (1, 11):
+    print(f"{Number} x {i} = {Number * i}")
